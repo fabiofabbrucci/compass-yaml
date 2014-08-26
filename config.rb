@@ -15,11 +15,11 @@ module Sass::Script::Functions
     p value
     if(value.is_a?(String))
 	    Sass::Script::Value::String.new(value.to_s)
-	elsif (value.is_a?(Array))
-		value.each_with_index do |elem, i|
-  			value[i]= Sass::Script::Value::String.new(elem.to_s)
-		end
-		Sass::Script::Value::List.new(value, ",")
-	end
+  	elsif (value.is_a?(Array))
+  		value.each_with_index do |elem, i|
+    			value[i]= Sass::Script::Value::String.new(elem.to_s)
+  		end
+  		Sass::Script::Value::List.new(value, ",")
+  	end
   end
 end
