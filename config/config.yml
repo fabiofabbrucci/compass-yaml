@@ -2,3 +2,4 @@ options:
   background: red
   color: blue
   columns: 12
+  colors: [red, blue, green]

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "silex/silex": "~1.1",
+        "deralex/yaml-config-service-provider": "1.0.x-dev",
+        "twig/twig": "1.*"
+    }
+}

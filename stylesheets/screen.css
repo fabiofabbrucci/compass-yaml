@@ -69,5 +69,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 8, ../sass/screen.scss */
 body {
+  color: red;
+}
+
+/* line 15, ../sass/screen.scss */
+.color.red {
   background-color: red;
+}
+
+/* line 15, ../sass/screen.scss */
+.color.blue {
+  background-color: blue;
+}
+
+/* line 15, ../sass/screen.scss */
+.color.green {
+  background-color: green;
 }
